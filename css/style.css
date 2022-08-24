@@ -726,7 +726,7 @@ body {
 
 #price .contenar .subs .buy1 {
     width: 315px;
-    height: 500px;
+    height: autp;
     background-color: #f5f7ff;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px rgba(41, 40, 40, 0.37);
@@ -735,8 +735,17 @@ body {
 #price .contenar .subs .fst {
     border-radius: 10px;
     background-color: #d9edfa;
+    padding-top: 1.5rem;
 }
-
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+.flex-box span{
+    color: gray;
+}
 #price .contenar .subs .fst h2 {
     font-size: 60px;
     line-height: 58px;
@@ -755,6 +764,7 @@ body {
     font-size: 16px;
     line-height: 28px;
     color: #999ca5;
+    padding-bottom: 1.5rem;
     font-weight: 400;
 }
 
@@ -766,8 +776,13 @@ body {
     font-weight: 400;
 }
 
-#price .contenar .subs .buy1 .subbut {
-    margin-top: 50px;
+#price .contenar .subs  .subbut {
+    /* margin-top: 50px; */
+    padding: 2.5rem 0;
+}
+#price .contenar .subs  .subbut .button{
+    outline: 1px solid blue;
+
 }
 
 /* pricelist offer end */
