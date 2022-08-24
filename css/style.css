@@ -173,7 +173,17 @@ body {
     display: flex;
     margin-top: 175px;
 }
-
+#features .contenar .left-img {
+    position: relative;
+}
+#features .contenar .left-img img {
+    position: absolute;
+    left: -240px;
+    top: -40px;
+}
+#features .contenar .features-right {
+    margin-left: 480px;
+}
 #features .contenar {
     padding-left: 30px;
 }
@@ -375,7 +385,16 @@ body {
     margin-top: 175px;
     margin-left: 60px;
 }
-
+#skill .contenar .skill-left {
+    position: relative;
+}
+#skill .contenar .skill-left img {
+    position: absolute;
+    left: -170px;
+}
+#skill .contenar .skill-right {
+    margin-left: 500px;
+}
 #skill .contenar .title {
     margin-top: 140px;
     margin-left: 60px;
@@ -531,12 +550,17 @@ body {
     margin-top: 100px;
     margin-left: 130px;
 }
-
-#ultimate>img {
-    margin-top: 30px;
-    margin-right: -130px;
+#ultimate .contenar .ultimate-left {
+    width: 800px;
 }
-
+#ultimate .contenar .ultimate-right {
+    position: relative;
+}
+#ultimate .contenar .ultimate-right img{
+    position: absolute;
+    top: -800px;
+    right: -230px;
+}
 #ultimate .contenar .title h2 {
     font-size: 36px;
     line-height: 46px;
@@ -588,7 +612,6 @@ body {
     padding: 8px;
     box-shadow: 0 0 0 100px #e3ffed;
     width: 100%;
-
 }
 
 #ultimate .contenar .iandata .jac3 img {
@@ -597,8 +620,6 @@ body {
     padding: 8px;
     width: 100%;
     box-shadow: 0 0 0 100px #fff5d3;
-
-
 }
 
 #ultimate .contenar .iandata .jac4 img {
@@ -607,8 +628,6 @@ body {
     padding: 8px;
     width: 100%;
     box-shadow: 0 0 0 100px #f3f3ff;
-
-
 }
 
 #ultimate .contenar .seeall {
@@ -762,11 +781,17 @@ body {
     margin-top: 200px;
     margin-left: -130px;
 }
-
-#userreview>img {
-    height: 500px;
+#userreview .contenar .userreview-left {
+    position: relative;
 }
-
+#userreview .contenar .userreview-left img {
+    position: absolute;
+    left: -230px;
+    top: 90px;
+}
+#userreview .contenar .userreview-right {
+margin-left: 620px;
+}
 #userreview .contenar .title h2 {
     font-size: 40px;
     line-height: 50px;
@@ -944,8 +969,6 @@ body {
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
-#download .contenar .applink a img {}
 
 #download .contenar .applink a {
     margin: 0px 40px 0px 0px;
